@@ -1,0 +1,15 @@
+pub mod admin_ban_user;
+pub mod appoint_moderator;
+pub mod ban_user;
+pub mod create_guild;
+pub mod join_guild;
+pub mod leave_guild;
+pub mod mod_remove_comment;
+pub mod mod_remove_post;
+pub mod remove_guild;
+pub mod remove_moderator;
+pub mod unban_user;
+pub mod update_guild_avatar;
+pub mod update_guild_banner;
+pub mod update_guild_description;
+pub mod update_guild_name;

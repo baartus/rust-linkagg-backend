@@ -1,0 +1,22 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3"
+actix-session = "0.4"
+serde = "1.0.106"
+serde_json = "1.0.51"
+sqlx = { version="0.5.6", features = ["postgres", "offline", "runtime-async-std-native-tls", "time"]}
+dotenv = "0.15.0"
+env_logger = "0.7.1"
+log = "0.4.8"
+anyhow = "1.0.28"
+futures = "0.3.13"
+async-std = { version = "1.8.0", features = [ "attributes" ] }
+bcrypt = "0.10.1"
+uuid = { version = "0.8.2", features = ["v4"] }
+rand = "0.8.4"

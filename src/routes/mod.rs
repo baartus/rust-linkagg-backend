@@ -1,0 +1,10 @@
+pub mod comment;
+pub mod guild;
+pub mod post;
+pub mod registration;
+pub mod report;
+pub mod reset_password;
+pub mod site;
+pub mod user;
+pub mod view;
+pub mod vote;

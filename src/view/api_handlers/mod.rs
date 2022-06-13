@@ -1,0 +1,9 @@
+pub mod get_all_posts;
+pub mod get_guild_details;
+pub mod get_post_comments;
+pub mod get_posts_by_guild;
+pub mod get_short_guild_details;
+pub mod get_user_comments;
+pub mod get_user_detailed;
+pub mod get_user_personal_info;
+pub mod get_user_posts;
